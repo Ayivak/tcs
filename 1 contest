@@ -105,4 +105,22 @@ if n==s:
     print("Palindrome")
 else:
     print("Not")
+9.remove spaces
+s=input(" ")
+print(s.replace(" ",""))
+print(s.strip())
+print(s.lstrip())
+print(s.rstrip())
+
+9.remove vowels
+
+
+def g(a):
+    l=('a','e','i','o','u',"A","E","I","O","U")
+    for i in a:
+        if i in l:
+            a=a.replace(i,"")
+    return a
+a=input(" ")
+print(g(a))
 
