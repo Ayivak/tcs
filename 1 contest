@@ -1,0 +1,22 @@
+String:
+1.find occurance:
+def o(a,c):
+    f=0
+    for i in range(0,len(a)):
+        if c in a[i]:
+            f+=1
+    return f
+a=input(" ")
+c=input(" ")
+
+print(o(a,c))
+f=0
+
+
+2,3.low-upper:
+s=input(" ")
+print(s.lower())
+print(s.islower())
+print(s.isupper())
+print(s.upper())
+
