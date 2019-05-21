@@ -20,3 +20,5 @@ print(s.islower())
 print(s.isupper())
 print(s.upper())
 
+
+3.
