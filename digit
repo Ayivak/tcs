@@ -30,3 +30,15 @@ if c==0:
     print("False")
     
     
+\\count digits 
+
+s=int(input(" "))
+n=int(input(" "))
+m=s
+c=0
+while m>0:
+    r=m%10
+    if r==n:
+        c+=1
+    m=m//10
+print(c)
