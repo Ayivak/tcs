@@ -1,0 +1,8 @@
+digit in number:
+
+m=list(map(str,str(input().split())))
+n=input()
+if n in m:
+    print("True")
+else:
+    print("False")
