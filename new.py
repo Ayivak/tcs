@@ -7,7 +7,21 @@ s=0
 while n!=0:
     r=n%10
     s=r**d+s
-    n=n//10
+    n=n//10n=input()
+p=int(n)
+h=p
+o=0
+while(p!=0):
+    r=p%10
+    o=o*10+r 
+    p=p//10
+if o==h:
+    print("Palin")
+else:
+    print("Not palin")
+    
+    
+
 if t==s:
     print("Armstrong")
 else:
@@ -118,6 +132,25 @@ v=int(n)
 j=int(m)
 for i in range(1,j+1):
     print(v,"*",i,"=",v*i)
+    
+    
+    
+    \\\\digit pslin
+    n=input()
+p=int(n)
+h=p
+o=0
+while(p!=0):
+    r=p%10
+    o=o*10+r 
+    p=p//10
+if o==h:
+    print("Palin")
+else:
+    print("Not palin")
+    
+    
+
     
     
     
