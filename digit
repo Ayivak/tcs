@@ -51,3 +51,14 @@ while m>0:
     r=m%10
     m=m//10
 print(r)
+
+
+\\\
+s=input(" ")
+print(s[0])
+
+
+\\\
+
+
+
