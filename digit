@@ -12,6 +12,8 @@ else:
  string compare with position 
     
     
+    
+    
 \\\\
 s=int(input(" "))
 n=int(input(" "))
@@ -26,3 +28,5 @@ if c==1:
     print("True")
 if c==0:
     print("False")
+    
+    
