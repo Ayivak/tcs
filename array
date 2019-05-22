@@ -24,3 +24,4 @@ print(a)
 a=input(" ")
 a=list(map(str,str(a)))
 print(a)
+ 
