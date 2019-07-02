@@ -1,0 +1,12 @@
+def f(n):
+    c=0
+    if n==1:
+        return 0
+    if n==2:
+        return 1
+    while(n%2==0):
+        c+=1
+        n/=2
+    print(2*c)
+n=int(input())
+f(n)
